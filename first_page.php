@@ -2,10 +2,6 @@
 session_start ();
 echo "<html>";
 
-$sid =session_id();
-echo "Session ID returned by session_id():".$sid."\n";
-$sid=SID;
-echo "Session ID returned by SID :".$sid."\n";
 $_SESSION["myLogin"]="myWebsite";
 echo " A value saved in the session named as myLogin.<br>";
 
